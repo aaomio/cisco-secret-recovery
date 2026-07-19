@@ -2,7 +2,7 @@
 
 ## Overview
 
-Unlike Cisco routers and Catalyst switches, **Cisco Wireless LAN Controllers (WLCs) do not support recovering the existing configuration by bypassing the startup configuration**.
+Unlike Cisco routers and Catalyst switches, **Cisco Wireless LAN Controllers (AireOS) do not support recovering the existing configuration by bypassing the startup configuration**.
 
 If administrator credentials are lost, the standard recovery method is to **factory reset the controller**, after which it must be reconfigured or restored from a backup.
 
@@ -36,11 +36,25 @@ Restart the controller.
 
 Confirm when prompted.
 
-The controller will reboot.
+---
+
+## Step 3 - Enter the Boot Menu
+
+As the controller begins to reboot, **press `Esc` repeatedly** to interrupt the boot process.
+
+The WLC boot menu will appear.
+
+Select:
+
+> **5 - Clear Configuration**
+
+Confirm the prompt to erase the startup configuration.
+
+The controller will reboot with its factory default configuration.
 
 ---
 
-## Step 3 - Perform Initial Setup
+## Step 4 - Perform Initial Setup
 
 After the controller restarts, complete the initial configuration wizard.
 
@@ -58,7 +72,7 @@ Typical settings include:
 
 ---
 
-## Step 4 - Restore Configuration (Optional)
+## Step 5 - Restore Configuration (Optional)
 
 If a configuration backup exists, restore it after completing the initial setup.
 
@@ -81,6 +95,3 @@ Save the running configuration.
 Verify controller information.
 
 > (Cisco Controller) > show sysinfo
-
-
-
