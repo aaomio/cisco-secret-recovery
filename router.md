@@ -1,4 +1,4 @@
-# Cisco Router Password Recovery (Cisco 1841)
+# Cisco Router Password Recovery
 
 ## Step 1 - Enter ROMMON
 
