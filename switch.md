@@ -26,7 +26,7 @@ Initialize the flash file system.
 
 > switch: flash_init
 
-(Optional) Verify the flash contents.
+Verify the flash contents.
 
 > switch: dir flash:
 
