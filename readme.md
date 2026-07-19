@@ -1,6 +1,6 @@
 # Cisco Password Recovery Lab
 
-A collection of Cisco password recovery procedures for common enterprise networking devices.
+Cisco password recovery procedures for common enterprise networking devices.
 
 These guides cover recovering administrative access, preserving existing configurations where supported, and performing factory resets when recovery is not possible.
 
