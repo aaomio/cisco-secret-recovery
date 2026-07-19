@@ -82,16 +82,5 @@ Verify controller information.
 
 > (Cisco Controller) > show sysinfo
 
-Verify joined Access Points.
-
-> (Cisco Controller) > show ap summary
-
-Verify configured WLANs.
-
-> (Cisco Controller) > show wlan summary
-
-Verify interfaces.
-
-> (Cisco Controller) > show interface summary
 
 
