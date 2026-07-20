@@ -8,10 +8,10 @@ These guides cover recovering administrative access, preserving existing configu
 
 # Device Guides
 
-* [Router](router.md)
-* [Switch](switch.md)
-* [Wireless LAN Controller](wireless-lan-controller.md)
-* [Access Point](access-point.md)
+* [Router](./Router/router.md)
+* [Switch](./Switch/switch.md)
+* [Wireless LAN Controller](./WLC/wireless-lan-controller.md)
+* [Access Point](./AP/access-point.md)
 
 # Repository Structure
 
